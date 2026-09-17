@@ -1,0 +1,9 @@
+node_modules/
+com.koop.streamdeck-midi.sdPlugin/bin/
+*.streamDeckPlugin
+Koop-MIDI-Source.zip
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

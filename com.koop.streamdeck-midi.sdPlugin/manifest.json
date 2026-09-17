@@ -1,0 +1,43 @@
+{
+  "Name": "Koop MIDI",
+  "Version": "1.1.1.0",
+  "Author": "Koop",
+  "Description": "Send MIDI notes, control changes, program changes, raw MIDI, and SysEx directly from Stream Deck keys on Windows.",
+  "UUID": "com.koop.streamdeck-midi",
+  "Icon": "imgs/plugin/icon",
+  "Category": "Koop MIDI",
+  "CategoryIcon": "imgs/plugin/category",
+  "CodePath": "bin/plugin.js",
+  "SDKVersion": 3,
+  "Software": {
+    "MinimumVersion": "6.9"
+  },
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Nodejs": {
+    "Version": "20",
+    "Debug": "enabled"
+  },
+  "Actions": [
+    {
+      "Name": "Send MIDI",
+      "UUID": "com.koop.streamdeck-midi.send",
+      "Icon": "imgs/actions/send/icon",
+      "Tooltip": "Send a MIDI Note, Control Change, Program Change, raw message, or SysEx message.",
+      "PropertyInspectorPath": "ui/send-midi.html",
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "imgs/actions/send/key",
+          "TitleAlignment": "bottom"
+        }
+      ]
+    }
+  ]
+}

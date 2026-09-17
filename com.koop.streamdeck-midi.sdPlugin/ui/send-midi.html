@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Koop MIDI</title>
+  <script src="sdpi-components.js"></script>
+</head>
+<body>
+  <sdpi-item label="MIDI Output">
+    <sdpi-select setting="port" datasource="getPorts" loading="Reading MIDI ports..." placeholder="Select a port" show-refresh></sdpi-select>
+  </sdpi-item>
+  <sdpi-item label="Message">
+    <sdpi-select setting="messageType" default="note">
+      <option value="note">Note</option>
+      <option value="cc">Control Change (CC)</option>
+      <option value="program">Program Change</option>
+      <option value="raw">Raw MIDI / SysEx</option>
+    </sdpi-select>
+  </sdpi-item>
+  <sdpi-item label="Channel">
+    <sdpi-textfield setting="channel" type="number" min="1" max="16" default="1"></sdpi-textfield>
+  </sdpi-item>
+  <sdpi-item label="Note / CC / PC">
+    <sdpi-textfield setting="number" type="number" min="0" max="127" default="60"></sdpi-textfield>
+  </sdpi-item>
+  <sdpi-item label="Velocity / Value">
+    <sdpi-textfield setting="value" type="number" min="0" max="127" default="127"></sdpi-textfield>
+  </sdpi-item>
+  <sdpi-item label="On Release">
+    <sdpi-select setting="releaseMode" default="noteOff">
+      <option value="noteOff">Send Note Off</option>
+      <option value="zero">Send CC value 0</option>
+      <option value="none">Send nothing</option>
+    </sdpi-select>
+  </sdpi-item>
+  <sdpi-item label="Raw Press">
+    <sdpi-textarea setting="rawPress" rows="3" default="F0 F7" placeholder="F0 00 01 02 F7"></sdpi-textarea>
+  </sdpi-item>
+  <sdpi-item label="Raw Release">
+    <sdpi-textarea setting="rawRelease" rows="3" placeholder="Optional hex bytes"></sdpi-textarea>
+  </sdpi-item>
+  <sdpi-item label="Feedback">
+    <sdpi-select setting="feedbackMode" default="errors">
+      <option value="errors">Errors only</option>
+      <option value="all">Success and errors</option>
+      <option value="none">None</option>
+    </sdpi-select>
+  </sdpi-item>
+  <sdpi-item>
+    <sdpi-static>Raw MIDI accepts hexadecimal bytes separated by spaces, commas, or dashes. SysEx must start with F0 and end with F7. Raw Release is optional.</sdpi-static>
+  </sdpi-item>
+  <sdpi-item>
+    <sdpi-static>For Bome: select a Bome virtual MIDI input above, open Bome's MIDI log, and press the Stream Deck key.</sdpi-static>
+  </sdpi-item>
+</body>
+</html>

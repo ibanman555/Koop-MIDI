@@ -1,0 +1,44 @@
+name: Bug report
+description: Report a reproducible Koop MIDI problem
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Koop MIDI version
+      placeholder: "1.1.1"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Stream Deck and Windows versions
+    validations:
+      required: true
+  - type: input
+    id: port
+    attributes:
+      label: MIDI output
+      description: Physical or virtual output, such as a Bome virtual port.
+    validations:
+      required: true
+  - type: textarea
+    id: message
+    attributes:
+      label: MIDI configuration
+      description: Include the exact raw or SysEx bytes when applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
