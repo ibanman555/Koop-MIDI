@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.3 - 2026-09-17
+
+- Replaced the keyboard and fader artwork with a unified 5-pin MIDI DIN connector icon.
+- Updated the app, category, action-list, and Stream Deck key artwork.
+
 ## 1.1.2 - 2026-09-17
 
 - Fixed MIDI output enumeration under Windows PowerShell 5.1.
