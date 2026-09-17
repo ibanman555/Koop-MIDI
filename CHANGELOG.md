@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.2 - 2026-09-17
+
+- Fixed MIDI output enumeration under Windows PowerShell 5.1.
+- Corrected conversion of WinMM device indexes to pointer-sized device identifiers.
+
 ## 1.1.1 - 2026-09-17
 
 - Added MIDI Note On/Off, Control Change, and Program Change.

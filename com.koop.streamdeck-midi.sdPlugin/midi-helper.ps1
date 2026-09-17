@@ -77,7 +77,10 @@ function Get-MidiPorts {
     $count = [WinMidi]::midiOutGetNumDevs()
     for ($i = 0; $i -lt $count; $i++) {
         $caps = New-Object WinMidi+MIDIOUTCAPS
-        $result = [WinMidi]::midiOutGetDevCaps([UIntPtr]$i, [ref]$caps, [Runtime.InteropServices.Marshal]::SizeOf($caps))
+        # Windows PowerShell cannot cast an Int32 directly to UIntPtr.
+        # Convert through UInt64 so this works in the 64-bit Stream Deck process.
+        $deviceId = [UIntPtr]::new([UInt64]$i)
+        $result = [WinMidi]::midiOutGetDevCaps($deviceId, [ref]$caps, [Runtime.InteropServices.Marshal]::SizeOf($caps))
         if ($result -eq 0) { $ports += [PSCustomObject]@{ id = $i; name = $caps.szPname } }
     }
     return @($ports)

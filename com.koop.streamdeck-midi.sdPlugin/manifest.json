@@ -1,6 +1,6 @@
 {
   "Name": "Koop MIDI",
-  "Version": "1.1.1.0",
+  "Version": "1.1.2.0",
   "Author": "Koop",
   "Description": "Send MIDI notes, control changes, program changes, raw MIDI, and SysEx directly from Stream Deck keys on Windows.",
   "UUID": "com.koop.streamdeck-midi",
