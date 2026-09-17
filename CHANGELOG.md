@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.4 - 2026-09-17
+
+- Prepared the plugin package and product media for Elgato Marketplace submission.
+- Updated category and action-list artwork to the required monochrome treatment.
+- Added setup and support links to the Property Inspector.
+
 ## 1.1.3 - 2026-09-17
 
 - Replaced the keyboard and fader artwork with a unified 5-pin MIDI DIN connector icon.

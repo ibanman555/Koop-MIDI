@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="960" viewBox="0 0 1920 960">
+  <rect width="1920" height="960" fill="#07111f"/>
+  <text x="120" y="155" fill="#fff" font-family="Arial, sans-serif" font-size="78" font-weight="800">Raw MIDI and SysEx, byte for byte</text>
+  <text x="124" y="225" fill="#9db0c4" font-family="Arial, sans-serif" font-size="34">Enter hexadecimal data and send a separate message on press and release.</text>
+  <g font-family="Consolas, monospace">
+    <rect x="120" y="325" width="1680" height="138" rx="28" fill="#10263e" stroke="#214d70" stroke-width="3"/><text x="170" y="382" fill="#7ee787" font-family="Arial, sans-serif" font-size="25" font-weight="700">RAW PRESS</text><text x="170" y="432" fill="#fff" font-size="40">90 3C 7F</text>
+    <rect x="120" y="500" width="1680" height="138" rx="28" fill="#10263e" stroke="#214d70" stroke-width="3"/><text x="170" y="557" fill="#7ee787" font-family="Arial, sans-serif" font-size="25" font-weight="700">RAW RELEASE</text><text x="170" y="607" fill="#fff" font-size="40">80 3C 00</text>
+    <rect x="120" y="675" width="1680" height="138" rx="28" fill="#103524" stroke="#16a34a" stroke-width="3"/><text x="170" y="732" fill="#7ee787" font-family="Arial, sans-serif" font-size="25" font-weight="700">SYSTEM EXCLUSIVE</text><text x="170" y="782" fill="#fff" font-size="40">F0 00 20 29 01 F7</text>
+  </g>
+</svg>

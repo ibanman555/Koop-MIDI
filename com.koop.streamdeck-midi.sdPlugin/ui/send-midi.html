@@ -4,6 +4,10 @@
   <meta charset="utf-8">
   <title>Koop MIDI</title>
   <script src="sdpi-components.js"></script>
+  <style>
+    .koop-help { color: #9fd7ff; text-decoration: none; }
+    .koop-help:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
   <sdpi-item label="MIDI Output">
@@ -51,6 +55,13 @@
   </sdpi-item>
   <sdpi-item>
     <sdpi-static>For Bome: select a Bome virtual MIDI input above, open Bome's MIDI log, and press the Stream Deck key.</sdpi-static>
+  </sdpi-item>
+  <sdpi-item label="Help">
+    <sdpi-static>
+      <a class="koop-help" href="https://github.com/ibanman555/Koop-MIDI#readme" target="_blank" rel="noopener">Setup guide</a>
+      &nbsp;·&nbsp;
+      <a class="koop-help" href="https://github.com/ibanman555/Koop-MIDI/issues" target="_blank" rel="noopener">Report an issue</a>
+    </sdpi-static>
   </sdpi-item>
 </body>
 </html>

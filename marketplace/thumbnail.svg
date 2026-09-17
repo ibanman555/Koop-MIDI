@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="960" viewBox="0 0 1920 960">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#10263e"/></linearGradient></defs>
+  <rect width="1920" height="960" fill="url(#bg)"/>
+  <circle cx="1495" cy="480" r="306" fill="#16a34a"/>
+  <circle cx="1495" cy="480" r="207" fill="none" stroke="#fff" stroke-width="40"/>
+  <rect x="1425" y="269" width="140" height="43" rx="5" fill="#fff"/>
+  <circle cx="1376" cy="462" r="31" fill="#fff"/><circle cx="1424" cy="381" r="31" fill="#fff"/><circle cx="1495" cy="357" r="31" fill="#fff"/><circle cx="1566" cy="381" r="31" fill="#fff"/><circle cx="1614" cy="462" r="31" fill="#fff"/>
+  <text x="150" y="355" fill="#7ee787" font-family="Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="6">STREAM DECK PLUGIN</text>
+  <text x="150" y="490" fill="#fff" font-family="Arial, sans-serif" font-size="116" font-weight="800">Koop MIDI</text>
+  <text x="156" y="580" fill="#c7d5e4" font-family="Arial, sans-serif" font-size="48">MIDI control from every key</text>
+  <g font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#fff">
+    <rect x="150" y="690" width="180" height="68" rx="34" fill="#173957"/><text x="194" y="734">NOTES</text>
+    <rect x="350" y="690" width="128" height="68" rx="34" fill="#173957"/><text x="394" y="734">CC</text>
+    <rect x="498" y="690" width="264" height="68" rx="34" fill="#173957"/><text x="540" y="734">PROGRAM</text>
+    <rect x="782" y="690" width="204" height="68" rx="34" fill="#16a34a"/><text x="827" y="734">SYSEX</text>
+  </g>
+</svg>
