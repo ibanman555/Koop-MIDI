@@ -40,9 +40,7 @@ numbers are entered as 0–127.
 
 ## Bome MIDI Translator
 
-Bome virtual MIDI ports appear in the plugin's **MIDI Output** menu. Select the
-Bome virtual input that should receive the Stream Deck messages, open Bome's
-MIDI log, and press the Stream Deck key to verify the transmitted bytes.
+If you have Bome MIDI Translator installed, Bome virtual MIDI ports appear in the plugin's **MIDI Output** menu. Select the Bome virtual input that should receive the Stream Deck messages, open Bome's MIDI log, and press the Stream Deck key to verify the transmitted bytes.
 
 ## Raw MIDI and SysEx
 
