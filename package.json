@@ -1,5 +1,5 @@
 {
-  "name": "koop-streamdeck-midi",
+  "name": "stream-deck-winmidi",
   "version": "1.1.4",
   "private": true,
   "type": "module",
@@ -7,10 +7,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ibanman555/Koop-MIDI.git"
+    "url": "https://github.com/ibanman555/Stream-Deck-WinMidi.git"
   },
   "bugs": {
-    "url": "https://github.com/ibanman555/Koop-MIDI/issues"
+    "url": "https://github.com/ibanman555/Stream-Deck-WinMidi/issues"
   },
   "scripts": {
     "build": "rollup -c",

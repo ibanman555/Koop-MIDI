@@ -1,12 +1,12 @@
 name: Bug report
-description: Report a reproducible Koop MIDI problem
+description: Report a reproducible Stream Deck WinMidi problem
 title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: input
     id: version
     attributes:
-      label: Koop MIDI version
+      label: Stream Deck WinMidi version
       placeholder: "1.1.1"
     validations:
       required: true

@@ -2,6 +2,7 @@
 
 ## 1.1.4 - 2026-09-17
 
+- Renamed the public product from Koop MIDI to Stream Deck WinMidi while preserving the plugin UUID for compatibility.
 - Prepared the plugin package and product media for Elgato Marketplace submission.
 - Updated category and action-list artwork to the required monochrome treatment.
 - Added setup and support links to the Property Inspector.
